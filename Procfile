@@ -1,1 +1,1 @@
-web:node src/server.js
+web:gunicorn CCMS.wsgi --log-file -
