@@ -1,1 +1,0 @@
-web: waitress-serve --listen=*:35834 djangochat.wsgi:application
