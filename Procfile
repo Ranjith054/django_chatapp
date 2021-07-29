@@ -1,1 +1,1 @@
-web:gunicorn CCMS.wsgi
+web:node src/server.js
