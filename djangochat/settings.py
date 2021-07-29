@@ -28,7 +28,7 @@ SECRET_KEY = 'm%c30v(4=6q!_ouzf5xx9l7n89pl0#l16lo6+z*g4!49-63@t#'
 DEBUG = False
 
 
-ALLOWED_HOSTS = ['127.0.0.1', 'chatsmaster.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'ranjith0504.pythonanywhere.com']
 
 
 # Application definition
