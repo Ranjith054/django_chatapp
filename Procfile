@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT djangochat.wsgi:application
+web: waitress-serve --listen=*:8000 djangochat.wsgi:application
