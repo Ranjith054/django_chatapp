@@ -1,1 +1,1 @@
-web: gunicorn djangochat.wsgi 
+web: waitress djangochat.wsgi 
