@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'm%c30v(4=6q!_ouzf5xx9l7n89pl0#l16lo6+z*g4!49-63@t#'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 
 ALLOWED_HOSTS = ['chatsmaster.herokuapp.com']
@@ -130,6 +130,5 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'djangochat/static'),
 )
 
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 django_heroku.settings(locals())
