@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT cardisle.wsgi:application
+web: waitress-serve --port=$PORT djangochat.wsgi:application
